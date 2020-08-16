@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.home {
+  width: 1000px;
+  margin: auto;
+}
+.home .card {
+  background-color: pink;
+  padding: 10px;
+}
+.home .card img {
+  width: 100%;
+}
+.home h2 {
+  font-size: 30px;
+}
+.home p {
+  font-size: 19px;
+}
+.home .top h1 {
+  margin: 30px 0;
+  font-size: 40px;
+}
+.home #menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0 60px;
+}
+.home #menu ul {
+  list-style-type: none;
+  display: flex;
+}
+.home #menu ul li a {
+  text-decoration: none;
+  border: 1px solid #d8d8d8;
+  padding: 10px 20px;
+  margin-right: 20px;
+}
+.home #menu ul li a:hover {
+  background-color: pink;
+  color: white;
+}
+.home .welcome {
+  text-align: center;
+}
+.home .welcome h2 {
+  margin-bottom: 10px;
+}
+.home .intro {
+  display: flex;
+  align-items: center;
+  margin: 90px 0;
+}
+.home .intro .left {
+  margin-right: 100px;
+}
+.home .intro .left img {
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.home .intro .left img.active {
+  box-shadow: 0 0 20px purple;
+}
+.home .intro .right h2 {
+  margin-bottom: 50px;
+}
+.home .intro .right p {
+  margin-bottom: 20px;
+}
+.home #flower {
+  display: flex;
+  align-items: center;
+  margin: 90px 0;
+}
+.home #flower .left {
+  width: 450px;
+  margin-right: 50px;
+}
+.home #flower .right {
+  margin-left: -25px;
+}
+.home #flower .right img {
+  width: 225px;
+  height: 224px;
+  margin-left: 25px;
+}
+.home .canada .text1 {
+  margin: 60px 0;
+}
+.home .canada .imgs {
+  margin-left: -50px;
+}
+.home .canada .imgs img {
+  width: 280px;
+  height: 280px;
+  margin-left: 50px;
+}
+.home .canada .text2 {
+  margin: 60px auto 90px;
+  width: 700px;
+  text-align: center;
+}
+.home .footer {
+  text-align: center;
+  margin: 30px 0;
+}
